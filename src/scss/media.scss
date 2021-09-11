@@ -1,0 +1,55 @@
+
+
+@media only screen and(max-width: 992px){
+    $pb: 20px;
+    aside{
+        width: 100%;
+        padding: 0px $pb;
+        margin-top: 20px;
+        padding-bottom: 0px;
+        margin-bottom: 20px;
+    }
+    .heading{
+        padding: $pb;
+    }
+    .aside-fixed{
+        position: relative;
+        height: auto;
+    }
+    content{
+        padding: 0px $pb !important;
+    }
+}
+
+@media only screen and(max-width: 576px){
+    $pb: 10px;
+    aside{
+        padding: 0px $pb;
+    }
+    .heading{
+        padding: $pb;
+    }
+    content{
+        padding: 0px $pb !important;
+        .card-product{
+            .card{
+                .card-title{
+                    font-size: 18px;
+                    line-height: 22px;
+                 }
+                 .card-text{
+                    font-size: 14px;
+                    line-height: 20px;
+                 }
+                 .product-price{
+                    font-size: 20px;
+                    line-height: 26px;
+                 }
+            }
+        }
+        
+    }
+    aside #add-product-form{
+        padding: 15px;
+    }
+}

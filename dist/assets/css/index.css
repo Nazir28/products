@@ -1,0 +1,312 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+html, body {
+  max-width: 100%;
+  min-height: 100%;
+  background: #FAF9F7;
+}
+
+.heading {
+  padding: 32px;
+  padding-bottom: 0px;
+}
+
+.heading h1 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 35px;
+  margin-bottom: 0px;
+  color: #3F3F3F;
+}
+
+.heading .btn-white {
+  font-size: 12px;
+  line-height: 15px;
+  color: #B4B4B4;
+  background: #FFFEFB;
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 10px 16px;
+}
+
+.heading .btn-white:focus {
+  background: #FFFEFB;
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.heading .btn-white:hover path {
+  stroke: black;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.heading .dropdown .dropdown-item {
+  font-size: 12px;
+  line-height: 15px;
+  color: #000;
+  padding: 0.25rem 1rem;
+}
+
+.heading .dropdown .dropdown-item:active {
+  background: #FF8484;
+  color: white;
+}
+
+.heading .dropdown .dropdown-menu {
+  min-width: 8rem;
+  background: #FFFEFB;
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  border: 0px solid transparent;
+  margin-top: 5px;
+}
+
+aside {
+  width: 364px;
+  padding-left: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+}
+
+aside #add-product-form {
+  width: 100%;
+  background: #FFFEFB;
+  -webkit-box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04), 0px 6px 10px rgba(0, 0, 0, 0.02);
+          box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04), 0px 6px 10px rgba(0, 0, 0, 0.02);
+  border-radius: 4px;
+  padding: 24px;
+  min-height: 480px;
+}
+
+aside #add-product-form label {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.02em;
+  color: #49485E;
+  margin-bottom: 4px;
+}
+
+aside #add-product-form label span {
+  display: inline-block;
+  background: #FF8484;
+  border-radius: 4px;
+  width: 4px;
+  height: 4px;
+  margin-bottom: 2px;
+}
+
+aside #add-product-form .form-control {
+  background: #FFFEFB;
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #3F3F3F;
+  border-color: transparent;
+}
+
+aside #add-product-form .form-control::-webkit-input-placeholder {
+  color: #B4B4B4;
+}
+
+aside #add-product-form .form-control::-moz-placeholder {
+  color: #B4B4B4;
+}
+
+aside #add-product-form .form-control:-ms-input-placeholder {
+  color: #B4B4B4;
+}
+
+aside #add-product-form .form-control::-ms-input-placeholder {
+  color: #B4B4B4;
+}
+
+aside #add-product-form .form-control::placeholder {
+  color: #B4B4B4;
+}
+
+aside #add-product-form .form-controlinput {
+  height: 36px;
+}
+
+aside #add-product-form .form-controltextarea {
+  height: 108px;
+}
+
+aside #add-product-form small {
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: -0.02em;
+  color: #FF8484;
+  display: inline-block;
+}
+
+aside #add-product-form .btn-add-product {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  width: 100%;
+  background: #7BAE73;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top: 14px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+aside #add-product-form .btn-add-product:hover {
+  background: #7ba774;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+aside #add-product-form .btn-add-product:active {
+  background: #678363;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+aside #add-product-form .btn-add-product:disabled {
+  background: #EEEEEE;
+  border-radius: 10px;
+  color: #B4B4B4;
+}
+
+aside #add-product-form .btn-add-product:disabled:hover {
+  background: #dbdada;
+}
+
+content {
+  display: block;
+  padding: 32px;
+  max-width: 100%;
+  padding-left: 16px;
+}
+
+content .card-product .card {
+  width: 100%;
+  color: #3F3F3F;
+  background: #FFFEFB;
+  -webkit-box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04), 0px 6px 10px rgba(0, 0, 0, 0.02);
+          box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04), 0px 6px 10px rgba(0, 0, 0, 0.02);
+  border-radius: 4px;
+  border: 0px solid transparent;
+}
+
+content .card-product .card:hover {
+  text-decoration: none;
+}
+
+content .card-product .card .card-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  -webkit-line-clamp: 2;
+  -moz-line-clamp: 2;
+  -ms-line-clamp: 2;
+  -o-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  -ms-box-orient: vertical;
+  -o-box-orient: vertical;
+  overflow: hidden;
+}
+
+content .card-product .card .card-text {
+  font-size: 16px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  -webkit-line-clamp: 4;
+  -moz-line-clamp: 4;
+  -ms-line-clamp: 4;
+  -o-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  -ms-box-orient: vertical;
+  -o-box-orient: vertical;
+  overflow: hidden;
+}
+
+content .card-product .card .product-price {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+content .card-product .btn-delete {
+  position: absolute;
+  right: 0px;
+  padding: 0px;
+  top: -10px;
+  -webkit-box-shadow: 0px 0px 0px transparent;
+          box-shadow: 0px 0px 0px transparent;
+  opacity: 0;
+  z-index: -1;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+content .card-product .btn-delete:hover rect {
+  fill: #fc5c5c;
+}
+
+content .card-product .btn-delete:active rect {
+  fill: #d84848;
+}
+
+content .card-product:hover .btn-delete {
+  opacity: 1;
+  z-index: 1;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+textarea {
+  resize: none;
+}
+
+.aside-fixed {
+  max-height: 100vh;
+  background-color: #FAF9F7;
+  position: fixed;
+  overflow-y: auto;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
